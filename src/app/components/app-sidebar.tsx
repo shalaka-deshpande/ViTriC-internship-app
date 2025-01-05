@@ -5,7 +5,6 @@ import {
   FolderPen,
   Code,
   Globe2,
-  GalleryVerticalEnd,
 
 } from "lucide-react"
 
@@ -24,33 +23,26 @@ const data = {
   user: {
     name: "student",
     email: "student@university.edu",
-    avatar: "/avatars/shadcn.jpg",
+    avatar: "/avatars/avatar.jpg",
   },
-  teams: [
-    {
-      name: "Acme Inc",
-      logo: GalleryVerticalEnd,
-      plan: "Student",
-    },
-  ],
   navMain: [
     {
-      title: "Home",
+      title: "Profile",
       url: "#",
       icon: UserPen,
       isActive: true,
       items: [
         {
-          title: "Profile",
-          url: "/profile",
+          title: "Home",
+          url: "/",
         },
         {
           title: "Documents",
-          url: "#",
+          url: "/docs",
         },
         {
           title: "Grades",
-          url: "#",
+          url: "/grades",
         },
       ],
     },
@@ -61,15 +53,15 @@ const data = {
       items: [
         {
           title: "Strong",
-          url: "#",
+          url: "/skills/strong",
         },
         {
           title: "Intermediate",
-          url: "#",
+          url: "/skills/intermediate",
         },
         {
           title: "Weak",
-          url: "#",
+          url: "/skills/weak",
         }
       ],
     },
