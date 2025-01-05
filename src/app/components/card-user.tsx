@@ -20,7 +20,7 @@ export default function UserInformation(){
                 <div className=" bg-slate-300/50 p-4 mx-3 rounded-lg">
                     Name: First Middle Last
                 </div>
-                <div className="bg-pink-400"> </div>
+                <div className="bg-pink-400"></div>
                 <div className="bg-pink-500"></div>
                 <div className="bg-pink-600"></div>
                 <div className="bg-pink-700"></div>
