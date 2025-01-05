@@ -1,14 +1,11 @@
 import * as React from "react"
 import {
-  BookOpen,
   PieChart,
   UserPen,
   FolderPen,
   Code,
   Globe2,
   GalleryVerticalEnd,
-  AudioWaveform,
-  Command
 
 } from "lucide-react"
 
@@ -74,29 +71,6 @@ const data = {
           title: "Weak",
           url: "#",
         }
-      ],
-    },
-    {
-      title: "Subjects",
-      url: "#",
-      icon: BookOpen,
-      items: [
-        {
-          title: "Subject-1",
-          url: "#",
-        },
-        {
-          title: "Subject-2",
-          url: "#",
-        },
-        {
-          title: "Subject-3",
-          url: "#",
-        },
-        {
-          title: "Subject-4",
-          url: "#",
-        },
       ],
     },
   ],
