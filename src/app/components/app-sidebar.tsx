@@ -37,10 +37,6 @@ const data = {
           url: "/",
         },
         {
-          title: "Documents",
-          url: "/docs",
-        },
-        {
           title: "Grades",
           url: "/grades",
         },

@@ -13,26 +13,23 @@ export default function Notice(){
                 <AccordionContent>
                   <span className="text-red-700 font-bold p-1">!NOTE</span>
                   <span>Assignment deadline updated to 'January 10, 2025'</span>
-
                 </AccordionContent>
               </AccordionItem >
               <AccordionItem value="item-2" className="border-slate-400/50">
-                <AccordionTrigger>Is it styled?</AccordionTrigger>
+                <AccordionTrigger className="text-green-500" >Examination Results Released</AccordionTrigger>
                 <AccordionContent>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3" className="border-slate-400/50">
-                <AccordionTrigger>Is it animated?</AccordionTrigger>
+                <AccordionTrigger className="text-blue-700">Assignment Received - Subject 1</AccordionTrigger>
                 <AccordionContent>
-                  Yes. It's animated by default, but you can disable it if you
-                  prefer.
+                  Assignment Received
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4" className="border-slate-400/50">
-                <AccordionTrigger>Is it animated?</AccordionTrigger>
+                <AccordionTrigger className="text-blue-700">Assignment Received - Subject 2</AccordionTrigger>
                 <AccordionContent>
-                  Yes. It's animated by default, but you can disable it if you
-                  prefer.
+                  Assignment Received.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
