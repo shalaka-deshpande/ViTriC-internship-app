@@ -1,5 +1,5 @@
 import './App.css'
-import Page from './app/page'
+import Page from './app/layout'
 
 function App() {
 

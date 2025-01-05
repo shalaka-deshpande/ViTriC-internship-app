@@ -35,14 +35,14 @@ const data = {
   ],
   navMain: [
     {
-      title: "Profile",
+      title: "Home",
       url: "#",
       icon: UserPen,
       isActive: true,
       items: [
         {
-          title: "Details",
-          url: "#",
+          title: "Profile",
+          url: "/profile",
         },
         {
           title: "Documents",
