@@ -48,17 +48,9 @@ const data = {
       icon: FolderPen,
       items: [
         {
-          title: "Strong",
-          url: "/skills/strong",
+          title: "Skill List",
+          url: "/skills",
         },
-        {
-          title: "Intermediate",
-          url: "/skills/intermediate",
-        },
-        {
-          title: "Weak",
-          url: "/skills/weak",
-        }
       ],
     },
   ],

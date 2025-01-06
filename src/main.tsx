@@ -5,9 +5,7 @@ import App from './App.tsx'
 import {createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Documents from './app/pages/Documents.tsx';
 import Grades from './app/pages/Grades.tsx';
-import StrongSkills from './app/pages/Strong-Skills.tsx';
-import WeakSkills from './app/pages/Weak-Skills.tsx';
-import IntermediateSkills from './app/pages/Intermediate-Skills.tsx';
+import SkillList from './app/pages/Skill-List.tsx';
 
 const router = createBrowserRouter([
   {
@@ -24,16 +22,8 @@ const router = createBrowserRouter([
     element: <Grades />
   },
   {
-    path:'/skills/strong',
-    element:<StrongSkills />
-  },
-  {
-    path:'/skills/weak',
-    element:<WeakSkills />
-  },
-  {
-    path:'/skills/intermediate',
-    element:<IntermediateSkills />
+    path:'/skills',
+    element:<SkillList />
   },
 ]);
 
