@@ -19,8 +19,20 @@ npm run dev
 
 ### Application Screenshots
 
+1. _***Homepage***_
+![Application Homepage](./screenshots/homepage.png)
 
+2. _***Sidebar collapsed***_
+![Collapsed Sidebar - Homepage](./screenshots/sidebar-collapsed.png)
 
+3. _***Grades Page***_
+![Grades](./screenshots/gradespage.png)
+
+4. _***Skills Page***_
+![Skills](./screenshots/skill-list.png)
+
+5. _***Account Menu***_
+![Account Menu](./screenshots/Dropdown.png)
 ### Dependencies
 
 1. React JS
