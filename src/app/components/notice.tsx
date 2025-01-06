@@ -18,6 +18,7 @@ export default function Notice(){
               <AccordionItem value="item-2" className="border-slate-400/50">
                 <AccordionTrigger className="text-green-500" >Examination Results Released</AccordionTrigger>
                 <AccordionContent>
+                  Examination results released for Sem-08
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3" className="border-slate-400/50">
